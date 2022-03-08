@@ -1,0 +1,155 @@
+body{
+    text-align: center;
+    background-color: hsl(233, 47%, 7%);
+    padding: auto;
+     margin-top: 3rem;
+     margin-bottom: 3rem;
+    
+}
+
+.container{
+ background-color: hsl(244, 38%, 16%);
+ width: 350px;
+ border-radius: 5px;
+ 
+}
+
+/* Section:main-image */
+
+.main-img{
+    opacity: 0.4;
+ width: 107%;
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
+ position: relative;
+ right: 11px;
+}
+
+.main-img-desktop{
+    opacity: 0;
+    position: absolute;
+}
+
+/* Texts */
+
+h1{
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 20px;
+    margin: 20px 42px;
+    margin-bottom: 10px ;
+    color: white;
+}
+
+.insights{
+    color:hsl(277, 64%, 61%);
+}
+
+p{
+    font-family: "Lexend Deca";
+    font-size: 11px;
+    margin: 0 32px ;
+    color: hsla(0, 0%, 100%, 0.6);
+    line-height: 1.1rem;
+    margin-bottom: 1.6rem;
+}
+
+ul{
+    list-style-type: none;
+    
+    padding-bottom: 20px;
+    font-family: "Lexend Deca";
+    font-size: 20px;
+    color: white;
+}
+
+
+.list{
+    position: relative;
+    right: 20px;
+    margin-bottom:17px;
+    font-weight: 700;
+}
+
+
+
+.under{
+    font-size: 11px;
+    position: relative;
+    bottom: 6px;
+    color: hsla(0, 0%, 100%, 0.6);
+    
+}
+
+.queries{
+    margin-bottom: 2px;
+}
+
+/* Media-Query */
+@media(min-width:768px)
+{
+    .body{
+      padding: 6rem auto;
+      margin-top: 30px;
+      
+    }
+
+    .container{
+        width: 750px;
+        height: 310px;
+        text-align: left;
+        margin-top: 250px;
+        
+    }
+
+    .main-img{
+      opacity: 0;
+      position: absolute;
+      
+    }
+
+    .main-img-desktop{
+        opacity: 0.4;
+        position: relative;
+        width: 51.4%;
+        left: 365px;
+        top: 0.9px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    h1{
+        width: 35%;
+        font-size: 22px;
+        padding-top: 30px;
+        position: relative;
+        right: 10px;
+    }
+
+    p{
+        width:40%;
+        padding-top: 5px;
+        padding-bottom: 0;
+    }
+
+    ul{
+        display: flex;
+        position: relative;
+        left: 20px;
+        padding-top: 15px;
+        padding-bottom: 0;
+
+    }
+
+    .list{
+        padding-right: 40px;
+        margin-bottom: 0;
+    }
+
+    .tumpa{
+        position: relative;
+        bottom: 320px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+}
